@@ -1,135 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title> Movie Mood Chooser </title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
-    
-    <link rel="stylesheet" href="style.css">
-</head>
-<body class="has-background-danger">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Movie Mood Chooser</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css"
+    />
 
-
-
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="has-background-danger">
     <section class="hero content has-text-centered">
-                <div class="hero-body">
-                  <div class="container">
-                    <h1 class="title">
-                      Movie Mood Chooser
-                    </h1>
-                    <h4 class="subtitle">
-                        Let us save you some time!
-                    </h4>
-                  </div>
-                </div>
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title">
+            Movie Mood Chooser
+          </h1>
+          <h4 class="subtitle">
+            Let us save you some time!
+          </h4>
+        </div>
+      </div>
     </section>
 
-    
-
     <div class="container is-fluid content has-text-centered">
-        <div class="notification">
+      <div class="notification">
+        <img
+          rel="popcorn banner"
+          id="popBanner"
+          src="assets/images/spirit night.png"
+        />
 
-            <img rel="popcorn banner" id="popBanner" src="assets/images/popBanner.jpg">
-
-            <div class="columns is-mobile">
-                    <div class="column"> 
-                        <div class="tile is-parent notification is-warning">  
-                                <p class="title"> Based on your current weather, which is:</p>
-                        </div>
-                    </div> 
-                    <div class="column"> 
-                        <div class="tile is-parent notification is-warning">  
-                            <p class="title"> Weather Placeholder... </p>
-                            <br>
-                            <br>
-                        </div> 
-                    </div>
+        <div class="columns is-mobile">
+          <div class="column">
+            <div class="tile is-parent notification is-warning">
+              <p class="title">Based on your current weather, which is:</p>
             </div>
-                    
-                    
-            <div class="columns is-mobile">
-                <div class="column" class="is-two-fifths"> 
-                    <div class="tile is-parent">
-                                    <article class="tile is-child notification is-info">
-                                      <p class="title">Movie 1 </p>
-                                      <p class="subtitle">With an image</p>
-                                      <figure class="image is-4by3">
-                                          <img src="https://bulma.io/images/placeholders/640x480.png">
-                                        </figure>
-                                    </article>
-                    </div>
-                    Genre 1 
-                </div>
-                <div class="column">
-                    <div class="tile is-parent">
-                                    <article class="tile is-child notification is-info">
-                                        <p class="title"> Coin Gif</p>
-                                      <p class="subtitle">With an image</p>
-                                      <figure class="image is-4by3">
-                                          <img rel="cointoss" src="assets/images/coinToss.gif">
-                                      </figure>
-                                    </article>
-                    </div>
-                    "Movie Flipping Gif Placeholder" 
-                </div>
-                <div class="column" class="is-two-fifths"> 
-                        <div class="tile is-parent">
-                            <article class="tile is-child notification is-info">
-                              <p class="title">Movie 2 </p>
-                              <p class="subtitle">With an image</p>
-                              <figure class="image is-4by3">
-                                <img src="https://bulma.io/images/placeholders/640x480.png">
-                            </figure>
-                            </article>
-                        </div>
-                    Genre 2 
-                </div>
+          </div>
+          <div class="column">
+            <div class="tile is-parent notification is-warning">
+              <p class="title">Weather Placeholder...</p>
+              <br />
+              <br />
             </div>
-           
-
-
-            <div class="columns is-mobile is-centered">
-                    <div class="column"> <a class="button is-success is-centered"> Generate Movie #1! </a> </div>
-                    <div class="column content has-text-centered">
-                        <a class="button is-warning is-centered"> Flip Coin! </a>
-                        <br>    
-                        <br>
-                        <a class="button is-warning is-centered"> Reset! </a>
-                    </div>
-                    <div class="column"> <a class="button is-success is-centered"> Generate Movie #2! </a> </div>           
-            </div>
-          
-
-
-        </div>   
-    </div>
-        
-    <footer class="footer">
-        <div class="content has-text-centered">
-            <img  id="pop" rel="popcornLogo" src="assets/images/popcorn logo.png">
-            <br>
-            <label> Created as a hw project by us, for you! </label>
-            <br>
-            <label> Us = Lucy, Caitlynn, Matt & Aldo! </label>
-            <br>
-            <label> Utilizing <strong>Bulma</strong> by <a href="https://jgthms.com"> Jeremy Thomas! </a></label>      
+          </div>
         </div>
+
+        <div class="columns is-mobile">
+          <div class="column" class="is-two-fifths">
+            <div class="tile is-parent">
+              <article class="tile is-child notification is-info">
+                <p class="title">Movie 1</p>
+                <p class="subtitle">With an image</p>
+                <figure class="image is-4by3">
+                  <img src="https://bulma.io/images/placeholders/640x480.png" />
+                </figure>
+              </article>
+            </div>
+            Genre 1
+          </div>
+          <div class="column">
+            <div class="tile is-parent">
+              <article class="tile is-child notification is-info">
+                <p class="title">Coin Gif</p>
+                <p class="subtitle">With an image</p>
+                <figure class="image is-4by3">
+                  <img rel="cointoss" src="assets/images/cItcKIj.gif" />
+                </figure>
+              </article>
+            </div>
+            "Flip to see you choice!"
+          </div>
+          <div class="column" class="is-two-fifths">
+            <div class="tile is-parent">
+              <article class="tile is-child notification is-info">
+                <p class="title">Movie 2</p>
+                <p class="subtitle">With an image</p>
+                <figure class="image is-4by3">
+                  <img src="https://bulma.io/images/placeholders/640x480.png" />
+                </figure>
+              </article>
+            </div>
+            Genre 2
+          </div>
+        </div>
+        <div class="columns is-mobile is-centered">
+          <div class="column">
+            <a class="button is-success is-centered"> Generate Movie #1! </a>
+          </div>
+          <div class="column content has-text-centered">
+            <button
+              id="flipping"
+              class="button is-warning is-centered"
+              type="button"
+            >
+              Flip Coin!
+            </button>
+            <br />
+            <p>You'll be Watching: <span id="result"></span></p>
+            <!-- <a id="resetBtn" class="button is-warning is-centered"> Reset! </a> -->
+          </div>
+          <div class="column">
+            <a class="button is-success is-centered"> Generate Movie #2! </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="content has-text-centered">
+        <img id="pop" rel="popcornLogo" src="assets/images/popcorn logo.png" />
+        <br />
+        <label> Created as a hw project by us, for you! </label>
+        <br />
+        <label> Us = Lucy, Caitlynn, Matt & Aldo! </label>
+        <br />
+        <label>
+          Utilizing <strong>Bulma</strong> by
+          <a href="https://jgthms.com"> Jeremy Thomas! </a></label
+        >
+      </div>
     </footer>
-
-     
-     
-     
-     
-     
-     
-     
-     
-
-     
-
-
-
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
