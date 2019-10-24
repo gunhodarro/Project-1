@@ -54,10 +54,13 @@
             <div class="tile is-parent">
               <article class="tile is-child notification is-info">
                 <p class="title">Movie 1</p>
-                <p class="subtitle">With an image</p>
-                <figure class="image is-4by3">
-                  <img src="https://bulma.io/images/placeholders/640x480.png" />
-                </figure>
+                <p id="title">Forrest Gump</p>
+                <p id="year">1994</p>
+                <p id="rating">8.8</p>
+                <p id="actors">Tom Hanks, Rebecca Williams, Sally Field, Michael Conner Humphreys</p>
+                <p id="plot">Forrest Gump, while not intelligent, has accidentally been present at many historic moments, but his true love, Jenny Curran, eludes him.</p>
+                <p id="poster1"><img src="https://m.media-amazon.com/images/M/MV5BNWIwODRlZTUtY2U3ZS00Yzg1LWJhNzYtMmZiYmEyNmU1NjMzXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg" alt="Forrest-Gump-movie-poster"></img></p>
+                <!-- <button id="refresh">Next</button> -->
               </article>
             </div>
             Genre 1
@@ -78,10 +81,13 @@
             <div class="tile is-parent">
               <article class="tile is-child notification is-info">
                 <p class="title">Movie 2</p>
-                <p class="subtitle">With an image</p>
-                <figure class="image is-4by3">
-                  <img src="https://bulma.io/images/placeholders/640x480.png" />
-                </figure>
+                <p id="title2">Dazed and Confused</p>
+                <p id="year2">1993</p>
+                <p id="rating2">7.6</p>
+                <p id="actors2">Jason London, Joey Lauren Adams, Milla Jovovich, Shawn Andrews</p>
+                <p id="plot2">The adventures of high school and junior high students on the last day of school in May 1976.</p>
+                <p id="poster2"><img src="https://m.media-amazon.com/images/M/MV5BMTM5MDY5MDQyOV5BMl5BanBnXkFtZTgwMzM3NzMxMDE@._V1_SX300.jpg" alt="dazed-and-confused-movie-poster"></img></p>
+                <!-- <button id="refresh">Next</button> -->
               </article>
             </div>
             Genre 2
@@ -89,7 +95,14 @@
         </div>
         <div class="columns is-mobile is-centered">
           <div class="column">
-            <a class="button is-success is-centered"> Generate Movie #1! </a>
+            <!-- <a class="button is-success is-centered"> Generate Movie #1! </a> -->
+            <button
+              id="refresh"
+              class="button is-success is-centered"
+              type="button"
+            >
+              Generate Movie #1!
+            </button>
           </div>
           <div class="column content has-text-centered">
             <button
@@ -104,7 +117,13 @@
             <!-- <a id="resetBtn" class="button is-warning is-centered"> Reset! </a> -->
           </div>
           <div class="column">
-            <a class="button is-success is-centered"> Generate Movie #2! </a>
+            <button
+            id="refresh2"
+            class="button is-success is-centered"
+            type="button"
+          >
+          Generate Movie #2!
+          </button>
           </div>
         </div>
       </div>
@@ -124,6 +143,7 @@
         >
       </div>
     </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="script.js"></script>
   </body>
 </html>
