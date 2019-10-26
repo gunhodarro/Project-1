@@ -145,7 +145,7 @@ $("#refresh").click(function() {
   $("#refresh").text("loading...").prop("disabled", true);
   console.log(refresh);
   console.log(movie);
-  $.getJSON("http://www.omdbapi.com/?t=" + movie + "&y=&plot=short&apikey=trilogy", function(data) {
+  $.getJSON("https://www.omdbapi.com/?t=" + movie + "&y=&plot=short&apikey=trilogy", function(data) {
   
     var type = data.type;
     var title = data.Title;
@@ -178,7 +178,7 @@ $("#refresh2").click(function() {
   $("#refresh2").text("loading...").prop("disabled", true);
   console.log(refresh);
   console.log(movie);
-  $.getJSON("http://www.omdbapi.com/?t=" + movie + "&y=&plot=short&apikey=trilogy", function(data) {
+  $.getJSON("https://www.omdbapi.com/?t=" + movie + "&y=&plot=short&apikey=trilogy", function(data) {
 
     var type = data.type;
     var title = data.Title;
