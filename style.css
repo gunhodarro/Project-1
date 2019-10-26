@@ -4,9 +4,41 @@
     margin-bottom: 2%;
 }
 
+#centeredTitle {
+    position: absolute;
+    z-index: 100;
+    top: 5%;
+    left: 21%;
+    transform: translate(50%, 50%);
+    font-size: 50px;
+
+}
+
+#subtitle{
+    position: absolute;
+    z-index: 100;
+    top: 15%;
+    left: 23%;
+    transform: translate(50%, 50%);
+    font-size: 35px;
+    
+
+}
+
 #pop {
     height: 4%;
     width: 4%;
     margin-bottom: 1%;
+}
+
+.currentWeather {
+    font: bolder;
+    font-size: 30px;
+
+}
+
+.currentLocation {
+    font: bolder;
+    font-size: 30px;
 }
 
